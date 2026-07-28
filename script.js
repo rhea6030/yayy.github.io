@@ -85,9 +85,16 @@ yesBtn.onclick = function(){
 
     popup.classList.add("hidden");
 
+    welcome.classList.add("hidden");
+
     story.classList.add("hidden");
 
     memorySection.classList.remove("hidden");
+
+    window.scrollTo({
+        top: memorySection.offsetTop,
+        behavior: "smooth"
+    });
 
 }
 
@@ -97,13 +104,20 @@ yesBtn.onclick = function(){
 
 noBtn.onclick = function(){
 
-    alert("😂 Too bad!! I'm showing you anyway 💙");
+    alert("baby its jus formality u have to see it anyway hehehe💙");
 
     popup.classList.add("hidden");
+
+    welcome.classList.add("hidden");
 
     story.classList.add("hidden");
 
     memorySection.classList.remove("hidden");
+
+    window.scrollTo({
+        top: memorySection.offsetTop,
+        behavior: "smooth"
+    });
 
 }
 
