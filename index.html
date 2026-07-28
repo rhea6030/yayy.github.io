@@ -1,1 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Happy Birthday Bestie 💙🎂</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&family=Pacifico&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+</head>
+
+<body>
+
+    <!-- ================= BACKGROUND EFFECTS ================= -->
+
+    <div class="sky">
+
+        <div class="cloud cloud1"></div>
+        <div class="cloud cloud2"></div>
+        <div class="cloud cloud3"></div>
+
+        <div class="star star1"></div>
+        <div class="star star2"></div>
+        <div class="star star3"></div>
+        <div class="star star4"></div>
+        <div class="star star5"></div>
+
+        <div class="sparkles"></div>
+
+        <div class="butterflies">
+            <span>🦋</span>
+            <span>🦋</span>
+            <span>🦋</span>
+        </div>
+
+    </div>
+
+    <!-- ================= SHINCHAN ================= -->
+
+    <img src="shinchan.png" alt="Shinchan" class="shinchan">
+
+    <!-- ================= WELCOME PAGE ================= -->
+
+    <section id="welcome">
+
+        <div class="glassBox">
+
+            <h3 class="cuteTitle">
+                🎀 A Little Surprise For My Bestie 🎀
+            </h3>
+
+            <h1>Happy Birthday</h1>
+
+            <h2>My Bestie 💙</h2>
+
+            <p id="typingText"></p>
+
+            <div class="emojiRow">
+                🌸 🎀 💙 ☁️ ✨ 🦋 🤍 🌷
+            </div>
+
+            <button id="startBtn">
+                Start the Surprise 💖
+            </button>
+
+        </div>
+
+    </section>
+
+    <!-- Floating Effects -->
+
+    <div id="heartContainer"></div>
+
+    <div id="flowerContainer"></div>
+
+    <div id="sparkleContainer"></div>
+
+    <!-- ================= STORY PAGE ================= -->
+
+    <section id="story" class="hidden">
+
+        <div class="glassBox">
+
+            <h2>📖 Chapter One</h2>
+
+            <h1>Our Story Begins...</h1>
+
+            <p>
+
+                Every friendship has a beautiful beginning...
+                and ours became one of my favorite stories. 💙
+
+            </p>
+
+            <div class="emojiRow">
+
+                ☁️ 🎀 🌸 💙 🦋 ✨
+
+            </div>
+
+            <button id="seeBtn">
+
+                Do u wanna see? 👀
+
+            </button>
+
+        </div>
+
+    </section>
+
+    <!-- ================= CUTE POPUP ================= -->
+
+    <div id="popup" class="popup hidden">
+
+        <div class="popupCard">
+
+            <h2>
+
+                🥺 Are you really ready?
+
+            </h2>
+
+            <p>
+
+                There's something very special waiting for you... 💙
+
+            </p>
+
+            <div class="popupButtons">
+
+                <button id="yesBtn">
+
+                    YES 💙
+
+                </button>
+
+                <button id="noBtn">
+
+                    NO 🙈
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- ================= MEMORY SECTION ================= -->
+
+    <section id="memorySection" class="hidden">
+
+        <div class="glassBox">
+
+            <h2>📸 Chapter Two</h2>
+
+            <h1>A Beautiful Memory...</h1>
+
+            <p>
+
+                Some memories stay in our hearts forever... 💖
+
+            </p>
+
+            <button id="memoryBtn">
+
+                Click once again 💙
+
+            </button>
+
+            <br><br>
+
+            <img src="myone.jpg"
+                id="myPhoto"
+                alt="Best Memory">
+
+            <p class="caption">
+
+                💙 One of my favorite memories with you...
+
+            </p>
+
+        </div>
+
+    </section>
+      <!-- ================= SECRET LETTER ================= -->
+
+    <section id="letterSection" class="hidden">
+
+        <div class="glassBox letterBox">
+
+            <h2>💌 Chapter Three</h2>
+
+            <h1>A Letter For You</h1>
+
+            <button id="openLetterBtn">
+
+                Open My Letter 💖
+
+            </button>
+
+            <div id="letter" class="hidden">
+
+                <h2>Dear Bestie 🌸</h2>
+
+                <p>
+
+                    Happy Birthday to the most wonderful person in my life. 💙
+
+                    Thank you for always being there, making me laugh,
+                    supporting me, and creating countless beautiful memories.
+
+                </p>
+
+                <p>
+
+                    I honestly don't know what life would've been like
+                    without you. Every moment with you is special,
+                    and I hope we keep making memories forever.
+
+                </p>
+
+                <p>
+
+                    I wish you endless happiness,
+                    lots of success,
+                    good health,
+                    and everything you've ever dreamed of.
+
+                </p>
+
+                <p>
+
+                    Never stop smiling because your smile makes
+                    everyone's day brighter. ✨
+
+                </p>
+
+                <h3>
+
+                    Love You Forever 💙🌸
+
+                </h3>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= FUN QUESTIONS ================= -->
+
+    <section id="questionSection" class="hidden">
+
+        <div class="glassBox">
+
+            <h2>🎀 Chapter Four</h2>
+
+            <h1>Just One More Thing...</h1>
+
+            <p>
+
+                Ready for some cute questions? 😆
+
+            </p>
+
+            <button id="questionBtn">
+
+                Let's Go 💙
+
+            </button>
+
+            <div id="questionBox" class="hidden">
+
+                <p id="questionText">
+
+                    Who is the best bestie ever? 😎
+
+                </p>
+
+                <button class="option">
+
+                    Me 😌
+
+                </button>
+
+                <button class="option">
+
+                    Obviously Me 😂
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= MEMORY MESSAGE ================= -->
+
+    <section id="messageSection" class="hidden">
+
+        <div class="glassBox">
+
+            <h2>🌸 Chapter Five</h2>
+
+            <h1>One Last Memory...</h1>
+
+            <p>
+
+                Every picture fades with time...
+
+                But memories stay forever.
+
+            </p>
+
+            <p>
+
+                Thank you for every laugh,
+                every silly conversation,
+                every adventure,
+                every late-night chat,
+                and every moment we've shared.
+
+            </p>
+
+            <button id="finalBtn">
+
+                Final Surprise 🎂
+
+            </button>
+
+        </div>
+
+    </section>
+
+    <!-- ================= FINAL SURPRISE ================= -->
+
+    <section id="finalSection" class="hidden">
+
+        <div class="glassBox">
+
+            <h1>
+
+                🎉 HAPPY BIRTHDAY 🎉
+
+            </h1>
+
+            <h2>
+
+                My Beautiful Bestie 💙
+
+            </h2>
+
+            <div class="bigEmoji">
+
+                🎂 🎈 🎉 🌸 🦋 ✨ 💙
+
+            </div>
+
+            <p>
+
+                Thank you for existing.
+
+            </p>
+
+            <p>
+
+                Thank you for making life brighter.
+
+            </p>
+
+            <p>
+
+                Thank you for being YOU.
+
+            </p>
+
+            <h2>
+
+                I hope this year brings you
+
+            </h2>
+
+            <ul class="wishList">
+
+                <li>🌸 Happiness</li>
+                <li>💙 Success</li>
+                <li>✨ Good Health</li>
+                <li>🎓 Amazing Achievements</li>
+                <li>🥹 Endless Smiles</li>
+                <li>🎂 Lots of Cake</li>
+
+            </ul>
+
+            <div class="emojiRow">
+
+                💙 🌸 🎀 🦋 ☁️ ✨
+
+            </div>
+
+            <button id="restartBtn">
+
+                See Everything Again 💖
+
+            </button>
+
+        </div>
+
+    </section>
+
+    <!-- ================= EFFECT CONTAINERS ================= -->
+
+    <div id="confettiContainer"></div>
+
+    <div id="balloonContainer"></div>
+
+    <div id="fireworkContainer"></div>
+
+    <!-- JavaScript -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
