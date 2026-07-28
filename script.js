@@ -85,6 +85,8 @@ yesBtn.onclick = function(){
 
     popup.classList.add("hidden");
 
+    popup.style.display = "none";
+
     welcome.classList.add("hidden");
 
     story.classList.add("hidden");
